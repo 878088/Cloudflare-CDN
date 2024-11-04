@@ -1,8 +1,9 @@
 name: 'dns_pod_push'
 
 on:
-  schedule:
-    - cron: '0 * * * *'
+   workflow_dispatch:
+  #schedule:
+    #- cron: '0 * * * *'
 
 jobs:
   build:
